@@ -1,6 +1,6 @@
 <footer>
     <div class="footer">
-        <div class="row">
+        <div class="footer-row">
             <ul>
                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
@@ -9,7 +9,7 @@
             </ul>
         </div>
         
-        <div class="row">
+        <div class="footer-row">
             <ul>
                 <li><a href="#">Contact us</a></li>
                 <li><a href="#">Our Services</a></li>

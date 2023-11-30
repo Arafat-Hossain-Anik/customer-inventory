@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\ProductsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,4 +34,13 @@ Route::group(['middleware'=>'guest'],function(){
 Route::group(['middleware'=>'auth'],function(){
     Route::get('dashboard',[AuthController::class,'dashboard'])->name('dashboard');
     Route::get('logout',[AuthController::class,'logout'])->name('logout');
+// });
+
+
+Route::get('/show-data',[ProductsController::class,'showData']);
+Route::get('/add-data',[ProductsController::class,'addData']);
+Route::post('/store-data',[ProductsController::class,'storeData']);
+Route::get('/edit-data/{id}',[ProductsController::class,'editData']);
+Route::post('/store-edit-data/{id}',[ProductsController::class,'storeEditData']);
+Route::get('/delete-data/{id}',[ProductsController::class,'deleteData']);
 });

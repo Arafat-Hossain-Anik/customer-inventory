@@ -3,9 +3,8 @@
     <title>Register</title>
 @endpush
 @section('content')
-<div class="container">
+<div class="container my-5" style="height: 60vh">
     <div class="row">
-
         <div class="col-md-4 offset-md-4">
             <div class="card form-holder">
                 <div class="card-body">
@@ -47,7 +46,7 @@
                                 placeholder="Password Confirmation" />
                         </div>
 
-                        <div class="row">
+                        <div class="row my-3">
                             <div class="col-8 text-left">
                                 <a href="/login" class="btn btn-link">Already Registered</a>
                             </div>

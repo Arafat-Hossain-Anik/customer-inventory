@@ -3,14 +3,12 @@
     <title>Register</title>
 @endpush
 @section('content')
-<div class="container">
+<div class="container my-5" style="height: 60vh">
     <div class="row">
-
         <div class="col-md-4 offset-md-4">
             <div class="card form-holder">
                 <div class="card-body">
-                    <h1>Login</h1>
-
+                    <h2>Give Your Credentials</h2>
                     @if (Session::has('error'))
                         <p class="text-danger">{{ Session::get('error') }}</p>
                     @endif
@@ -35,7 +33,7 @@
                                 <p class="text-danger">{{ $errors->first('password') }}</p>
                             @endif
                         </div>
-                        <div class="row">
+                        <div class="row my-3">
                             <div class="col-8 text-left">
                                 <a href="/register" class="btn btn-link">New User</a>
                             </div>
