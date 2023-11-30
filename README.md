@@ -7,3 +7,4 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - Protected dashboard
 - Protedted crud operation
 - Login and registration features
+- Initial Credentials E-mail: arafatskd@gmail.com Password: 1234
