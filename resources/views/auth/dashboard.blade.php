@@ -28,8 +28,8 @@
         <div class="col col-md-2 dashboard-list-container">
             <div class="">
                 <div class="px-1 dashboard-header">
-                    <h2>DashBoard</h2>
-                    <h6>{{ Auth::user()->name }}</h6>
+                    <h6>DashBoard</h6>
+                    <h2>{{ Auth::user()->name }}</h2>
                 </div>
                 <ul class="dashboard-list">
                     <li><a href="/">Home</a></li>
