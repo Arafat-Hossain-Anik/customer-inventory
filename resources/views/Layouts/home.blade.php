@@ -13,7 +13,7 @@
             </div> 
         </div>
         <div class="banner-image-container">
-            <img class="banner-image" src="https://simitechnologies.co.ke/web/image/966-3a1a87f4/inventory-or-logistics-optimization-concept-with-modern-isometric-free-vector.jpg" alt="">
+            <img class="banner-image" src="https://img.freepik.com/premium-vector/inventory-logistics-optimization-concept-with-modern-isometric-3d-style-vector-illustration_82472-598.jpg?w=900" alt="">
         </div>
     </div>
 </div>
